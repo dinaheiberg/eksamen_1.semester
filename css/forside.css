@@ -252,3 +252,185 @@ ul{
     margin-right: -50px;
         
 }
+
+.fairtrade_overskrift{
+    float: right;
+    font-family: 'Lobster', cursive;
+    font-size: 23px;
+    color: #464545;   
+    text-align: center;
+    margin-top: 100px;
+    margin-right: -450px;
+    
+}
+.fairtrade_tekst{
+    float: right;
+    font-size: 18px;
+    color: #464545;   
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-left: 750px;  
+}
+
+.bagside{
+    float: right;
+    margin-right: -50px;
+    opacity: 85%;
+    margin-top: -30px;
+}
+
+.infografik{
+    float: left;
+    margin-left: -12px;
+    margin-top: -610px
+    
+}
+
+/* Her indsætter jeg billeder og tekst af de 5 varianter af chokoladebarer */
+
+.original{
+    float: left;
+    margin-left: 170px;
+    margin-top: 60px;
+    opacity: 85%;
+}
+
+.original_overskrift{
+    float: right;
+    font-family: 'Lobster', cursive;
+    font-size: 23px;
+    color: #464545;   
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 390px;
+    
+}
+
+.original_tekst{
+    float: right;
+    color: #464545;   
+    text-align: center;
+    font-size: 18px;
+    margin-right: 300px;
+    margin-left: 760px;
+    margin-top: -290px;
+}
+
+.mandel{
+    float: right;
+    margin-right: 200px;
+    margin-top: 20px;
+    opacity: 85%;
+}
+
+.mandel_overskrift{
+    float: left;
+    font-family: 'Lobster', cursive;
+    font-size: 23px;
+    color: #464545;   
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 320px;
+    
+}
+
+.mandel_tekst{
+   float: left;
+    color: #464545;   
+    text-align: center;
+    font-size: 18px;
+    margin-left: 175px;
+    margin-right: -300px;
+    margin-top: -25px; 
+}
+
+.saltkaramel{
+    float: left;
+    opacity: 85%;
+    margin-top: 20px;
+    margin-left: 170px;
+}
+
+.saltkaramel_overskrift{
+    float: right;
+    font-family: 'Lobster', cursive;
+    font-size: 23px;
+    color: #464545;   
+    text-align: center;
+    margin-top: 55px;
+    margin-right: 340px;
+    
+}
+
+.saltkaramel_tekst{
+    float: right;
+    color: #464545;   
+    text-align: center;
+    font-size: 18px;
+    margin-right: 300px;
+    margin-left: 760px;
+    margin-top: -300px;
+}
+
+.havsalt{
+    float: right;
+    margin-right: 200px;
+    margin-top: 20px;
+    opacity: 85%;
+}
+
+.havsalt_overskrift{
+    float: left;
+    font-family: 'Lobster', cursive;
+    font-size: 23px;
+    color: #464545;   
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 320px;
+}
+
+.havsalt_tekst{
+    float: left;
+    color: #464545;   
+    text-align: center;
+    font-size: 18px;
+    margin-left: 175px;
+    margin-right: -300px;
+    margin-top: -25px; 
+}
+
+.orange{
+     float: left;
+    opacity: 85%;
+    margin-top: 20px;
+    margin-left: 170px;
+}
+
+.orange_overskrift{
+    float: right;
+    font-family: 'Lobster', cursive;
+    font-size: 23px;
+    color: #464545;   
+    text-align: center;
+    margin-top: 55px;
+    margin-right: 340px;
+}
+
+.orange_tekst{
+    float: right;
+    color: #464545;   
+    text-align: center;
+    font-size: 18px;
+    margin-right: 300px;
+    margin-left: 760px;
+    margin-top: -300px;
+}
+
+.footer1{
+    bottom: 0px;
+    width: 100%; 
+    background: #939292; 
+    padding: 20px;
+    
+}
