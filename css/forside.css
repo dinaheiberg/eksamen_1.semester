@@ -2,10 +2,13 @@
  * fil: css/style.css
  **/
 
-/*fonts */
+/*font som jeg også har brugt til at designe mit produkt */
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-/* Header */
+/* her ville jeg lave css variabler, men da det giver fejl i validereringen har jeg valgt at lade være og skrive det manuelt hvert sted */
+
+
+/* Header som er fixed så man hurtigt han klikke sig videre til andre sider */
 nav{
   display: flex;
   width: 100%;
@@ -24,25 +27,28 @@ a{
   margin: 0 40px;
 }
 
+/* Her er logoet centreret i headeren som linker tilbage til forsiden */
 .logo{
     height: 90%;
     width: auto;
     line-height: 100px;
-    vertical-align: middle;
-
-   
+    vertical-align: middle;  
 }
+
+/* baggrundsfarven på hjemmesiden */
 body{
     background-color: #F4F0F0;
 }
 
+/* et billede jeg har sat ned i kvalitet for at sænke loadtime (dette gælder alle billederne på hjemmesiden) */
 .web1{
     margin-top: 7%;
-    width: 100%;
+    max-width: 100%;
     height: auto;
     
 }
 
+/*overskriften på den lille reklame for kampagnen */
 .kampagne_overskrift{
     font-family: Helvetica Neue; 
     color: #464545;
@@ -50,6 +56,7 @@ body{
  
 }
 
+/*teksten på den lille reklame for kampagnen */
 .kampagne_tekst{
     font-family: Helvetica Neue;
     color: #464545;   
@@ -69,8 +76,10 @@ body{
     opacity: 90%;
     
     
+    
 }
 
+/*her designer jeg mit link til kampagnen så det ligner en knap med baggrundsfarve osv. */
 .knap{
     
      display: block; 
@@ -89,10 +98,13 @@ body{
       
 }
 
+/* width indstilles til max 100% så billedet ikke kan blive større end det og er responsivt*/
 .web2{
-    width: 100%
+    max-width: 100%;
+    height: auto;
 }
 
+/*hele dette stykke gælder det samme som oppe ved kampagnen, bare for et sommerkatalog i stedet */
 .katalog{
     font-family: Helvetica Neue;
     color: #464545;
@@ -134,28 +146,29 @@ body{
 }
 
 .web3{
-    width: 100%
+    max-width: 100%;
+    height: auto;
 }
 
-/* Footer */
+/* Her er min footer, som er delt op i 3 kolonner med logo'er og links til sociale medier. Det havde været lettere at bruge flexbox, men det fandt jeg færst ud af senere, og nåede derfor ikke at lave det om */
 .footer{
     bottom: 0px;
     width: 97%; 
     background: #939292; 
     padding: 10px 20px;
 }
+
+/* her styler jeg teksten i venstre kolonne, hvor jeg bl.a. fjerner bullets fra listen osv. */
 .venstre_bund{
     text-decoration: none;
     list-style: none;
     color: white;
     list-style-type: none;
     font-family: Helvetica Neue;
-    position: relative;
-    
-    
-    
+    position: relative;   
 }
 
+/* dette er styles for overskriften i venstre kolonne */
 .venstre_top{
     color: white;
     text-align: left;
@@ -163,10 +176,10 @@ body{
     font-size: 14px;
     padding-bottom: 5px;
     line-height: 1.5;
-    margin-top: -20px;
-    
+    margin-top: -20px;   
 }
 
+/* dette er styles for overskriften af midter kolonnen*/
 .midt_top{
     color: white;  
     text-align: center;
@@ -174,12 +187,10 @@ body{
     font-size: 14px;
     line-height: 1.5;
     margin-top: -240px;
-    
-    
-    
-    
 }
 
+
+/* her styles teksten for midter kolonnen */
 .midt_bund{
     color: white;
     text-align: center;
@@ -187,10 +198,9 @@ body{
     position: relative;
     right: 30px;
     top: -5px;
-
-
 }
 
+/* dette er styles for overksriften af højre kolonne, hvor der bla.a er brugt float for at få tingene til at stå på linje*/
 .højre_top{
     color: white;
     text-align: right;
@@ -200,20 +210,21 @@ body{
     float: right
 }
 
+/* her fjernes der bullets fra alle listerne */
 ul{
   list-style-type: none;
 }
 
+/* dette er styles for logoerne af mail og telefon i venstre kolonne, hvor der også er benyttet float for at kunne placere det på linje med teksten */
 .venstre_bund img{
     height:25px;
     width: 35px;
     float:left;
     right: 7px;
-    position: relative
-    
-   
+    position: relative;
 }
 
+/* styles for de tre ikoner for sociale medier med link. her er der også brugt float */
 .højre_bund img{
   height:50px;
     width: 60px;
@@ -221,9 +232,11 @@ ul{
     position: relative;
     right: 30px;
     top: -120px
-    
 }
 
+/* her starter styles for kampagne-siden */
+
+/* tekstafsnit om kampagnen med overskrift og brødtekst */
 .charlie_overskrift{
     font-family: 'Lobster', cursive;
     float: left;
@@ -232,7 +245,6 @@ ul{
     font-size: 23px;
     color: #464545;   
     text-align: center;
-    
 }
 
 .charlie_tekst{
@@ -245,14 +257,15 @@ ul{
     text-align: center;
 }
 
+/* billede af den golden ticket som fungerer som gavekort i nogle af chokoladebarerne */
 .golden_ticket{
     float: right;
     position: relative;
     margin-top: -340px;
-    margin-right: -50px;
-        
+    margin-right: -50px;      
 }
 
+/* tekstafsnit om fairtrade med overskrift og brødtekst */
 .fairtrade_overskrift{
     float: right;
     font-family: 'Lobster', cursive;
@@ -260,9 +273,9 @@ ul{
     color: #464545;   
     text-align: center;
     margin-top: 100px;
-    margin-right: -450px;
-    
+    margin-right: -450px;    
 }
+
 .fairtrade_tekst{
     float: right;
     font-size: 18px;
@@ -273,6 +286,7 @@ ul{
     margin-left: 750px;  
 }
 
+/* billede af bagsiden af chokoladebaren */
 .bagside{
     float: right;
     margin-right: -50px;
@@ -280,6 +294,7 @@ ul{
     margin-top: -30px;
 }
 
+/* min inforgrafik */
 .infografik{
     float: left;
     margin-left: -12px;
@@ -427,10 +442,27 @@ ul{
     margin-top: -300px;
 }
 
-.footer1{
-    bottom: 0px;
-    width: 100%; 
-    background: #939292; 
-    padding: 20px;
+/* mediarules for desktop*/
+@media only screen and (min-width: 992px){
+   
+    
+}
+    
+}
+    
+/* mediarules for tablet*/
+    @media only screen and (min-width: 768px){
+      
+        
+        
+}
+    
+    
+/* mediarules for telefon*/
+@media only screen and (min-width: 200px){
+   
+        
+        
+    
     
 }
