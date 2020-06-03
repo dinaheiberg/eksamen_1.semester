@@ -44,8 +44,7 @@ body{
 }
 
 .kampagne_overskrift{
-    font-family: Helvetica Neue;
-    font-size: 
+    font-family: Helvetica Neue; 
     color: #464545;
     text-align: center;
  
@@ -53,7 +52,6 @@ body{
 
 .kampagne_tekst{
     font-family: Helvetica Neue;
-    font-size: 
     color: #464545;   
     text-align: center;
     margin-left: 24%;
@@ -97,14 +95,12 @@ body{
 
 .katalog{
     font-family: Helvetica Neue;
-    font-size: 
     color: #464545;
     text-align: center;   
 }
 
 .katalog_tekst{
     font-family: Helvetica Neue;
-    font-size: 
     color: #464545;   
     text-align: center;
     margin-left: 24%;
