@@ -1,0 +1,257 @@
+/**
+ * fil: css/style.css
+ **/
+
+/*fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* Header */
+nav{
+  display: flex;
+  width: 100%;
+  height: 15%;
+  background-color: white;
+    opacity: 50%;
+  align-items: center;
+  justify-content: center;
+    position: fixed;
+    top: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #464545;
+  margin: 0 40px;
+}
+
+.logo{
+    height: 90%;
+    width: auto;
+    line-height: 100px;
+    vertical-align: middle;
+
+   
+}
+body{
+    background-color: #F4F0F0;
+}
+
+.web1{
+    margin-top: 7%;
+    width: 100%
+    
+}
+
+.kampagne_overskrift{
+    font-family: Helvetica Neue;
+    font-size: 
+    color: #464545;
+    text-align: center;
+ 
+}
+
+.kampagne_tekst{
+    font-family: Helvetica Neue;
+    font-size: 
+    color: #464545;   
+    text-align: center;
+    margin-left: 24%;
+    margin-right: 24%;
+    margin-top: -1%;
+    
+}
+
+/* her centrerer jeg billedet af chokoladebaren */
+.choko{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -4%;
+    opacity: 90%;
+    
+    
+}
+
+.knap{
+    
+     display: block; 
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    color: #464545; 
+    text-align: center; 
+    font-size: 140%; 
+    line-height: 50px; 
+    font-family: Helvetica Neue;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -4%;
+      
+}
+
+.web2{
+    width: 100%
+}
+
+.katalog{
+    font-family: Helvetica Neue;
+    font-size: 
+    color: #464545;
+    text-align: center;   
+}
+
+.katalog_tekst{
+    font-family: Helvetica Neue;
+    font-size: 
+    color: #464545;   
+    text-align: center;
+    margin-left: 24%;
+    margin-right: 24%;
+    margin-top: -1%;   
+}
+
+/* her centrerer jeg billedet af katalog */
+.katalog_bil{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    
+}
+
+.knap2{
+    display: block; 
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    color: #464545; 
+    text-align: center; 
+    font-size: 140%; 
+    line-height: 50px; 
+    font-family: Helvetica Neue;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+}
+
+.web3{
+    width: 100%
+}
+
+/* Footer */
+.footer{
+    bottom: 0px;
+    width: 97%; 
+    background: #939292; 
+    padding: 10px 20px;
+}
+.venstre_bund{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    list-style-type: none;
+    font-family: Helvetica Neue;
+    position: relative;
+    
+    
+    
+}
+
+.venstre_top{
+    color: white;
+    text-align: left;
+    margin-left: 60px;
+    font-size: 14px;
+    padding-bottom: 5px;
+    line-height: 1.5;
+    margin-top: -20px;
+    
+}
+
+.midt_top{
+    color: white;  
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: -240px;
+    
+    
+    
+    
+}
+
+.midt_bund{
+    color: white;
+    text-align: center;
+    font-family: Helvetica Neue;
+    position: relative;
+    right: 30px;
+    top: -5px;
+
+
+}
+
+.højre_top{
+    color: white;
+    text-align: right;
+    margin-right: 60px;
+    font-size: 14px;
+    margin-top: -163px;
+    float: right
+}
+
+ul{
+  list-style-type: none;
+}
+
+.venstre_bund img{
+    height:25px;
+    width: 35px;
+    float:left;
+    right: 7px;
+    position: relative
+    
+   
+}
+
+.højre_bund img{
+  height:50px;
+    width: 60px;
+    float: right;
+    position: relative;
+    right: 30px;
+    top: -120px
+    
+}
+
+.charlie_overskrift{
+    font-family: 'Lobster', cursive;
+    float: left;
+    margin-top: 130px;
+    margin-left: 200px;
+    font-size: 23px;
+    color: #464545;   
+    text-align: center;
+    
+}
+
+.charlie_tekst{
+    float: left;
+    margin-left: 30px;
+    margin-right: 740px;
+    font-size: 18px;
+    margin-top: -20px;
+    color: #464545;   
+    text-align: center;
+}
+
+.golden_ticket{
+    float: right;
+    position: relative;
+    margin-top: -340px;
+    margin-right: -50px;
+        
+}
