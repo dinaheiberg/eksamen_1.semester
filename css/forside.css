@@ -442,6 +442,8 @@ ul{
     margin-top: -300px;
 }
 
+/* mine mediarules virker af ukendte grunde ikke, og ødelægger designet til desktop, hvis jeg forsøger at skrive variablæer ind, derfor har jeg valgt ikke at gøre det, for at der i det mindste er en device, som det virker til*/
+
 /* mediarules for desktop*/
 @media only screen and (min-width: 992px){
    
@@ -451,18 +453,12 @@ ul{
 }
     
 /* mediarules for tablet*/
-    @media only screen and (min-width: 768px){
-      
-        
+    @media only screen and (min-width: 768px){      
         
 }
     
     
 /* mediarules for telefon*/
 @media only screen and (min-width: 200px){
-   
-        
-        
-    
     
 }
